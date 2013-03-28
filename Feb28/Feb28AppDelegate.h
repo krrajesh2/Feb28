@@ -10,9 +10,11 @@
 @class View;
 
 @interface Feb28AppDelegate : UIResponder <UIApplicationDelegate>{
-	View *view;
+ 	View *view;	
 	UIWindow *_window;
 }
+
+- (void) valueChanged: (id) sender;
 
 @property (strong, nonatomic) UIWindow *window;
 

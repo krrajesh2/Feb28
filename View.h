@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface View : UIView
+@interface View : UIView {
+	UISwitch *mySwitch;
+	UISlider *slider;	
+	UILabel *label;	
+}
 
 @end
